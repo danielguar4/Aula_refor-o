@@ -1,7 +1,7 @@
 ﻿Console.WriteLine("Msotre o Seu mg/Dl");
 
-string  sla2 = Console.ReadLine()!;
-int valor = Convert.ToInt32(sla2);
+string converser = Console.ReadLine()!;
+int valor = Convert.ToInt32(converser);
 
 if(valor < 92){
     Console.WriteLine("reavaliar entre 24 e 28 semanas com TTOG 75g de glicose");
